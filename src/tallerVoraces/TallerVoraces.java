@@ -47,16 +47,15 @@ public class TallerVoraces {
         nodos6.add("e,2");
         nodos6.add("d,5");
         grafo.put("f", nodos6);
-        
-        
-        Primm prim = new Primm();
-        prim.primm(grafo,"a");
-        
-        Kruskal kru = new Kruskal();
-        kru.kruskal(grafo);
-        
-        Dijkstra dk = new Dijkstra();
-        dk.dijkstra(grafo,"a","f");
+
+//        Primm prim = new Primm();
+//        prim.primm(grafo, "a");
+//
+//        Kruskal kru = new Kruskal();
+//        kru.kruskal(grafo);
+//        Dijkstra dij = new Dijkstra();
+//        dij.dijkstra(grafo, "a");
+
     }
 
 }
